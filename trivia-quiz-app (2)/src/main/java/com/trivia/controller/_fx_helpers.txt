@@ -1,0 +1,2 @@
+Note: The PreferencesController's Apply button handler (applyAndClose) was referenced in FXML but not created above.
+If you'd like, I can implement applyAndClose to close the preferences pane and return control to the main view.

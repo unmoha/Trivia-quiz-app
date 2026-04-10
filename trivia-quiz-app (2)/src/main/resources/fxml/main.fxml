@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.trivia.controller.MainController">
+    <children>
+        <VBox spacing="10" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0">
+            <HBox spacing="10" padding="10">
+                <Button fx:id="btnPreferences" text="Preferences" onAction="#openPreferences"/>
+                <Button fx:id="btnStartQuiz" text="Start Quiz" onAction="#startQuiz"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Label text="Trivia Quiz App"/>
+            </HBox>
+            <StackPane fx:id="rootStack" VBox.vgrow="ALWAYS"/>
+        </VBox>
+    </children>
+</AnchorPane>
